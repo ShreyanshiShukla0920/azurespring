@@ -1,0 +1,16 @@
+server:
+  port: 9081
+
+spring:
+  datasource:
+      url: jdbc:sqlserver://employser.database.windows.net:1433;database=employdb;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+      username: shreyanshi
+      password: ISHUishu2412@
+  jpa:
+  
+      hibernate:
+        ddl-auto: update
+        dialect: org.hibernate.dialect.SQLServer2012Dialect
+      show-sql: true
+
+
